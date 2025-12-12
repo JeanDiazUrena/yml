@@ -1,0 +1,10 @@
+---
+name: Hola Informatica
+on:
+  push: null
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mensaje de bienvenida
+        run: echo "Bienvenido a despliegue automatico"
